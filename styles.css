@@ -88,6 +88,18 @@ h1, h2, h3 {
     padding-left: 25px;
 }
 
+.nutrition-details table {
+    margin-left: 0px;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.nutrition-details table td:first-child {
+    padding-right: 50px;
+}
+
 .attribution { 
     font-size: 10px; 
     text-align: center; 
