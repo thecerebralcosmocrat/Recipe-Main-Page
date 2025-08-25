@@ -19,10 +19,8 @@
 
 This project is a newbie Frontend Mentor HTML5 + CSS3 challenge to build a recipe main page. 
 
-### Screenshot
+### Screenshots 
 
-![](./assets/images/recipe-page-main-1.png)
-![](./assets/images/recipe-page-main-2.png)
 ![](./assets/images/simple-recipe-main-page.jpg)
 
 ### Links
@@ -60,7 +58,7 @@ Here's some HTML code I'm proud of:
 I enjoyed the part where I embed the fonts to the HTMl page. Learning about preconnect was also cool.
 ```
 ```css
-Plus some CSS styling I'm proud of:
+Plus some CSS styling that was nice:
 
 .nutrition-details table {
     margin-left: 0px;
