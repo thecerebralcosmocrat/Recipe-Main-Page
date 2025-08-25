@@ -1,7 +1,5 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -16,14 +14,16 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This project is a newbie Frontend Mentor HTML5 + CSS3 challenge to build a recipe main page. 
 
 ### Screenshot
 
 ![](./assets/images/recipe-page-main-1.png)
 ![](./assets/images/recipe-page-main-2.png)
+![](./assets/images/simple-recipe-main-page.jpg)
 
 ### Links
 
@@ -32,6 +32,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## My process
 
+1. I initialized my project as a public repository on [GitHub](https://github.com). Creating a repo makes it easier to share my code with the community and allows potential employers to gauge my learning process and curve.
+2. I looked through the desktop design, mobile design, index.html, style-guide.md and preview.jpg to begin brainstorming ways to tackle the project. This helped me think ahead for CSS classes to create reusable styles. 
+3. Before adding any styles, I structured the content using semantic HTML. Writing the HTML first helps me focus on creating well-structured content first and worrying about the styling later. 
+4. I wrote out the basic styles for my project, including general content styles, such as `font-family` and `font-size`. In this case, I had to embed the HTML code for the fonts `Young Serif` and `Outfit` from [Google Fonts](https://fonts.google.com/).
+5. I began CSS by adding styles to the containers on the top of the page and worked my way down. I moved on to the next section only when I was happy or satisfied with the previous section. 
+6. I made a commit to the project repository at each and every savepoint/flag. I consider every working state of the project to be a savepoint/flag. This way, I can rollback to any previous working state in case my code breaks or ceases to function properly. Writing good commit messages is also of prime importance. Mentioning the changes made to the code at the end of each session is a good practice. Looking through GitHub code blames isn't always fun. 
+7. When the project is done, use GitHub pages for deployment :)
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -39,59 +47,44 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+Here's some HTML code I'm proud of:
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet"> 
+  
+I enjoyed the part where I embed the fonts to the HTMl page. Learning about preconnect was also cool.
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+Plus some CSS styling I'm proud of:
+
+.nutrition-details table {
+    margin-left: 0px;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    width: 100%;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+The main area I'd like to focus on is the responsiveness and interactivity of my webpages. I'm using only plain HTML and CSS as of now. I definitely need to get used to padding and margins. And Flexbox and CSS Block + Grid properties. It's a long journey ahead!
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN Docs](https://developer.mozilla.org/en-US/) - This is easily the most quessential resource for learning the syntax and use of various HTML elements and CSS properties. Literally officially the reference bible for web development. 
+- [The Markdown Guide](https://www.markdownguide.org/) - This is an amazing resource which finally helped me understand markdown syntax and usage. I never knew learning something as overlooked as markdown could be enjoyable! The README.md file is actually very important, as it tells people the story of your project :)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@thecerebralcosmocrat](https://www.frontendmentor.io/profile/thecerebralcosmocrat)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I'd love to thank [Scrimba](https://scrimba.com) for their supercool HTML + CSS course! It really helped boost my confidence in coding independently and trusting my intuition when it comes to frontend development. 
