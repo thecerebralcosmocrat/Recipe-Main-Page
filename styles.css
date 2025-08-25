@@ -98,10 +98,21 @@ h1, h2, h3 {
     border-collapse: collapse;
     color: hsl(14, 45%, 36%);
     font-weight: 700;
+    width: 100%;
+}
+
+.nutrition-details table td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.nutrition-details table tr:last-child td {
+    border-bottom: none;
 }
 
 .nutrition-details table td:first-child {
-    padding-right: 50px;
+    padding-right: 80px;
 }
 
 .attribution { 
