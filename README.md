@@ -25,8 +25,8 @@ This project is a newbie Frontend Mentor HTML5 + CSS3 challenge to build a recip
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Recipe Main Page Solution](https://www.frontendmentor.io/solutions/responsive-mobile-first-html5-css3-recipe-main-page-kTEcNT2pFe)
+- Live Site URL: [Recipe Main Page Website](https://thecerebralcosmocrat.github.io/Recipe-Main-Page/)
 
 ## My process
 
